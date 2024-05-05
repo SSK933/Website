@@ -296,7 +296,7 @@ a{
 }
 
 .page4-container{
-    height: 75vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -305,12 +305,12 @@ a{
 }
 
 .page4-container:hover .page4-right .video{
-    transform: scale(1.03);
+    transform: scale(1.04);
 }
 
 .page4-left{
-    width: 47.65%;
-    padding-right: 10vw;
+    width: 45.5%;
+    padding-right: 6vw;
     padding-top: 2.5vw;
     padding-bottom: 2.5vw;
     border-right: 2.5px solid #000;

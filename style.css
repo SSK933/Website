@@ -368,3 +368,74 @@ a{
     background-color: #e8ecef;
     color: #000;
 }
+
+.StatsSection{
+    min-height: 95vh;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-bottom: 2px solid #000;
+}
+
+.StatsSection-Header{
+    text-align: center;
+    padding: 2vw 10vw;
+}
+
+.StatsSection-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 8vw;
+}
+
+.StatsSection-Header h3{
+    text-align: center;
+    font-size: 2.25vw;
+    font-weight: 500;
+}
+
+.StatsSection-Header{
+    padding: 4vw 6vw;
+}
+
+.StatsSection h1{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.StatsSection h2{
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.counters{
+    text-align: center;
+}
+.container{
+    max-width: 70vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vw 5vw;
+}
+
+.counter {
+    max-width: 20vw;
+    align-items: center;
+}
+
+.counter h1 {
+    text-align: center;
+    width: 20vw;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.counter h2 {
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 400;
+}

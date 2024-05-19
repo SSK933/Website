@@ -44,7 +44,7 @@ var tl = gsap.timeline({
     scrollTrigger:{
         trigger: ".page1 h1",
         scroller: ".main",
-        markers: true,
+        //markers: true,
         start: "top 42%",
         end:"top 18%",
         scrub:4
@@ -77,17 +77,17 @@ var h5Offset = calculateXOffset(h5Element);
 
 // Animation to move the center of the elements to the center of the viewport along x-axis
 tl.to(".page1 h1", {
-    x: h1Offset/1.83,
+    x: h1Offset/1.84,
     ease: "power2.out"
 }, "anim");
 
 tl.to(".page1 h2", {
-    x: h2Offset/2.1,
+    x: h2Offset/2,
     ease: "power2.out"
 }, "anim");
 
 tl.to(".page1 h5", {
-    x: h5Offset/1.61,
+    x: h5Offset/1.75,
     ease: "power2.out"
 }, "anim");
 

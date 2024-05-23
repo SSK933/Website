@@ -369,6 +369,86 @@ a{
     color: #000;
 }
 
+.page5{
+    min-height: 75vh;
+    padding: 0 5vw;
+    border-bottom: 2px solid #000;
+}
+
+.page5-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 3vw 1vw;
+}
+
+.page5-container:hover .page5-right .video{
+    transform: scale(1.04);
+}
+
+.page5-left{
+    width: 45.5%;
+    padding-right: 6vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    border-right: 2.5px solid #000;
+}
+
+.page5-right{
+    width: 50%;
+}
+
+.page5-left h1{
+    font-size: 1.1vw;
+    height: 20vh;
+    font-weight: 400;
+}
+
+.page5-left h2{
+    font-size: 2vw;
+    height: 6vh;
+    font-weight: 400;
+}
+
+.page5-left h3{
+    font-size: 1vw;
+    height: 22vh;
+    font-weight: 400;
+}
+
+.page5-left h4{
+    font-size: 1vw;
+    height: 6vh;
+    font-weight: 400;
+}
+
+.page5-right video{
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    transform: scale(0.9);
+    transition: border-radius 0.5s ease, transform 1s ease;
+}
+
+.page5-left button{
+    width: 34%;
+    border-radius: 20px;
+    padding: 4px 10px;
+    background-color: #777777;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.page5-left button:hover{
+    width: 34%;
+    border-radius: 20px;
+    padding: 4px 10px;
+    background-color: #e8ecef;
+    color: #000;
+}
+
 .StatsSection{
     min-height: 95vh;
     width: 100%;

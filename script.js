@@ -147,6 +147,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const videoContainer = document.querySelector('.page5-container');
+    const video = videoContainer.querySelector('.video');
+
+    videoContainer.addEventListener('mouseenter', function() {
+        timer = setTimeout(function() {
+            video.play(); // Play the video with a delay
+        }, 100); // Delay in milliseconds (300ms in this example)
+    });
+
+    videoContainer.addEventListener('mouseleave', function() {
+        timer = setTimeout(function() {
+            video.pause(); // Play the video with a delay
+        }, 100); // Delay in milliseconds (300ms in this example)
+    });
+});
 
 const workSection = document.querySelector(".section-work-data");
 const workObserver = new IntersectionObserver(
